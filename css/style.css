@@ -1,0 +1,168 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #F0F2F5; 
+    width: 65%;
+    margin: auto;
+}
+
+aside{     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem; 
+    width: 50%;
+    float: right;
+    height: 80vh;
+
+
+}
+
+header{                                
+    float: left;                                               
+    padding: 1rem;  
+    width: 50%;    
+    height: 80vh;  
+    display: flex;
+    align-items: left;
+    justify-content: center; 
+    flex-direction: column;
+
+                
+}
+
+footer{ 
+    background-color: #FFFFFF;
+    width: 100%;  
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    padding-top: 1rem;
+
+
+    
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    text-align:center;
+    font-size: 12px;
+}
+
+
+.logo {
+    width : 300px;                         /* largeur = 300 pixel */
+}
+
+.button_connexion {
+    background-color: #1877F2 ;         /* couleur de fond */
+    font-size: 1.2rem;
+    border-radius: 5px ;                 /* arrondi du bord */
+    padding: 0.8rem 4rem 0.8rem 4rem;   /* espace entre le contenu et le contenant */
+    color: white;                    /* couleur du texte */
+    margin: 0rem 1rem;                     /* espace "vital" entre les éléments*/
+    border: none;
+    font-weight: bold;
+
+}
+
+.welcome{
+    /*font-weight: bold;                  /* forme de la police (bold/italic..) */
+    font-size: 30px;                   /* taille de la police */
+    padding-left: 1.6rem;
+    
+}
+
+.forgotpassword{
+    text-decoration: none;                  /* text-decoration est le format de la police "lien souligné ou non" */
+    color: #1877F2;                      /* couleur du texte */
+    border-bottom: 1px solid #E4E6E9;      /* bordure de la partie inférieur */
+    padding: 0.5rem 2rem 1rem 2rem;        /* espace vital : haute droite bas gauche*/
+    text-align: center;
+    font-size: 0.9rem;
+  
+}
+
+.createAccount {
+    background-color: #42B72A;       /* couleur de fond */
+    font-size: 1.2rem;
+    color: white;                   /* couleur du texte */
+    border-radius: 5px;              /* arrondi du bord */
+    padding: 0.5rem;                /* espace entre le contenu et le contenant */
+    margin: 1rem 5rem 1rem 5rem;                  /* espace "vital" entre les éléments*/
+    border: none;
+
+}
+
+.form{                   
+    border-radius: 5px;                                  /* arrondi du bord */
+    box-shadow: 3px 3px 3px 3px #E4E6E9, -0.2em 0 .3em #E4E6E9;   /* ombre de la boite, pas obligatoire de faire une bordure pour l'utiliser */
+    width: 400px;                                      /* largeur = 250 pixels */
+    display:flex;                                     /* on indique qu'il est flex */
+    flex-direction: column;                          /* on lui indique la direction*/
+    background-color: white;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+
+    
+}
+
+.input{
+    margin: 0rem 1rem 0.5rem;           /* marge du button */
+    border: 1px solid #C4D9EF;           /* bordure du button */
+    border-radius: 5px;               /* bordure arrondi */
+    padding: 0.8rem;  
+    font-size: 1.2rem;              
+}
+
+.input:focus{
+    border: 1px solid #1877F2;
+}
+
+.createElement{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;  
+    font-size: 13px; 
+    width: 400px;
+    
+}
+
+p{
+    width: 350px;
+    text-align: center;
+}
+
+.langue a{
+    text-decoration: none;
+    color: gray;
+    margin-left: 1rem;
+}
+
+.mentions{
+    padding: 1rem;
+    border-top: 0.3px solid grey;
+    margin-top: 1rem;
+}
+.mentions a {
+    text-decoration: none;
+    color: gray;
+    margin-left: 1rem;
+    
+}
+
+.upperCase {
+    text-transform: uppercase;
+}
+
+.FacebookLogo {
+    color: gray;
+    padding: 1rem;
+}
+
+
