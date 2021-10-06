@@ -5,7 +5,8 @@
     <head> <!-- Information importante pour la page link/include/etc..-->
 
     <meta charset="UTF-8" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Facebook - Connexion ou inscription</title> <!-- Titre de l'onglet-->
     <link rel="stylesheet" href="css/reset.css"> <!-- reset pour remettre à zéro le css du navigateurs-->
     <link rel="stylesheet" href="css/style.css"> <!--lien vers style.css-->
@@ -18,14 +19,14 @@
     <!-- Favicon pour la barre de recherche, le . avant le /img/ permet de remonter dans le dossier actuel-->
 
     </head>
-    <body class="body1"> <!-- Corps du document-->
-    
-            <header class="header1"> 
+    <body> <!-- Corps du document-->
+    <div class="bloc">
+            <header> 
                 
                     <img class="logo"  src="./img/facebook.svg">
                     <span class="welcome">Avec Faceboook, partagez et restez en contact avec votre entourage.</span>
 
-                </header>
+            </header>
 
             <aside>
                 <div>
@@ -59,10 +60,11 @@
                     <div><a href="https://fr-fr.facebook.com/pages/create/?ref_type=registration_form" class="createElement">Créer une Page</a> pour une célébrité, un groupe ou une entreprise</div>
                 </div>
             </aside>
-               
+        </div>       
         </body>
     
     <footer>
+        <div class="link">
         <!--onglets avec les langues dans une nav avec des ≤a-->
         <ul class="langue">
             <li><a href="">Fançais (France)</a></li>
@@ -77,7 +79,7 @@
             <li><a href="https://zh-cn.facebook.com/">中文(简体)</a></li>
             <li><a href="https://ja-jp.facebook.com/">日本語</a></li>
         </ul>
-        
+        <div class="liseret"></div>
         <ul class="mentions">
             <li><a href="https://fr-fr.facebook.com/r.php">S'inscrire</a></li>
             <li><a href="https://fr-fr.facebook.com/login/">Se connecter</a></li>
@@ -108,6 +110,7 @@
             <li><a href="https://fr-fr.facebook.com/help/?ref=pf">Aides</a></li>
          </ul>
         <span class="FacebookLogo">Facebook &copy; 2021</span>
+    </div>
     </footer>
 
 
