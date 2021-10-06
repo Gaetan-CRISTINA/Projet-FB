@@ -46,7 +46,7 @@
                         
                         <!-- input est utilisé pour créer un contrôle interactif dans un formulaire, placeholder permets de mettre un text qui sera remplacé par le text de user-->
 
-                        <a class="button_connexion" type="button" href="../php/page.php">Se connecter</a>
+                        <a class="button_connexion" type="button" href="./home.php">Se connecter</a>
                          <!-- button permets de soumettre un formulaire-->
 
                         <br> <!-- br est là pour le saut de ligne-->
