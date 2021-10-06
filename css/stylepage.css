@@ -80,17 +80,12 @@ article{
 
 .button{
     color: #1877F2;
-    background: #1877F2;
-    border: 1px solid #1877F2;
+    background-color: #1877F2;
+    
 
 }
 .button:hover{
     color: #1877F2;
     background-color: #1877F2;
-}
-
-.myGradient{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 

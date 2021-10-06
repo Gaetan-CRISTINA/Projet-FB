@@ -2,13 +2,11 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 
-body{
-    background-color: #F0F2F5; 
-    width: 65%;
+.bloc {
+   
     margin: auto;
 }
-
-aside{     
+aside{     /*formulaire */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,11 +14,11 @@ aside{
     width: 50%;
     float: right;
     height: 80vh;
-
+    
 
 }
 
-header{                                
+header{   /*Slogan FB*/                              
     float: left;                                               
     padding: 1rem;  
     width: 50%;    
@@ -29,12 +27,12 @@ header{
     align-items: left;
     justify-content: center; 
     flex-direction: column;
-
+   
                 
 }
 
 footer{ 
-    background-color: #FFFFFF;
+    background-color: red;
     width: 100%;  
     margin: auto;
     display: flex;
@@ -109,7 +107,7 @@ ul{
     margin-bottom: 2rem;
     padding-top: 1rem;
     padding-bottom: 0.5rem;
-
+    background-color: yellow;
     
 }
 
